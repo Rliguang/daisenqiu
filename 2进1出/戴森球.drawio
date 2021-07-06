@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T04:55:14.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="SRPX_SGxutEOufDltj9j" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T05:05:29.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="BpO55iHlY3i6PN773-yt" version="14.8.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,11 +7,113 @@
         <mxCell id="gTvFCDJHloZVV6W1U-Y1-1" value="物流塔" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="360" y="240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gTvFCDJHloZVV6W1U-Y1-2" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="gTvFCDJHloZVV6W1U-Y1-1">
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-3" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="480" as="sourcePoint" />
-            <mxPoint x="360" y="460" as="targetPoint" />
+            <mxPoint x="450" y="440" as="sourcePoint" />
+            <mxPoint x="330" y="350.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="350" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-5" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="330" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="310.0000000000001" as="sourcePoint" />
+            <mxPoint x="320" y="340.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-14" value="&lt;font style=&quot;font-size: 6px&quot;&gt;四向分流器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=4;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-21" value="熔炉" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-22" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="400" as="sourcePoint" />
+            <mxPoint x="260" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-23" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="gTvFCDJHloZVV6W1U-Y1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="280" as="sourcePoint" />
+            <mxPoint x="560" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-27" value="&lt;span&gt;熔炉&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="400.0000000000001" as="sourcePoint" />
+            <mxPoint x="190" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-29" target="gTvFCDJHloZVV6W1U-Y1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-29" value="&lt;font style=&quot;font-size: 6px&quot;&gt;四向分流器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=4;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-30" value="&lt;font style=&quot;font-size: 6px&quot;&gt;四向分流器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=4;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-31" target="gTvFCDJHloZVV6W1U-Y1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-31" value="&lt;font style=&quot;font-size: 6px&quot;&gt;四向分流器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=4;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-35" value="&lt;span&gt;熔炉&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-36" value="&lt;span&gt;熔炉&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-38" value="&lt;span&gt;熔炉&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-39" value="&lt;span&gt;熔炉&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-41" value="&lt;font style=&quot;font-size: 8px&quot;&gt;卫星供电&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-43" target="gTvFCDJHloZVV6W1U-Y1-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-43" value="&lt;font style=&quot;font-size: 6px&quot;&gt;四向分流器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-44" target="gTvFCDJHloZVV6W1U-Y1-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-44" value="&lt;font style=&quot;font-size: 6px&quot;&gt;四向分流器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=4;" vertex="1" parent="1">
+          <mxGeometry x="180" y="600" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gTvFCDJHloZVV6W1U-Y1-47" target="gTvFCDJHloZVV6W1U-Y1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gTvFCDJHloZVV6W1U-Y1-47" value="&lt;font style=&quot;font-size: 6px&quot;&gt;四向分流器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=4;" vertex="1" parent="1">
+          <mxGeometry x="390" y="600" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
